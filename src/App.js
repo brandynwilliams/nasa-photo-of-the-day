@@ -1,16 +1,14 @@
 import React from "react";
-import "./App.css";
-import axios from 'axios';
-import { BASE_URL, API_KEY } from '../src/constants/index'
 import Header from './components/header'
 import Picture from './components/picture'
+import {Container} from './components/styles/Container.styled'
 
 function App() {
   return (
-    <div className="App">
+    <Container>
       <Header />
       <Picture />
-    </div>
+    </Container>
   );
 }
 
