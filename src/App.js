@@ -1,14 +1,14 @@
 import React from "react";
-import "./App.css";
+import Header from './components/header'
+import Picture from './components/picture'
+import {Container} from './components/styles/Container.styled'
 
 function App() {
   return (
-    <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun <span role="img" aria-label='go!'>🚀</span>!
-      </p>
-    </div>
+    <Container>
+      <Header />
+      <Picture />
+    </Container>
   );
 }
 
